@@ -14,7 +14,7 @@
     <script src="{{ asset('assets/js/color-modes.js') }}"></script>
 
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
-    {{-- <link href="{{ asset('css/bootstrap.rtl.min.css') }}" rel="stylesheet"> --}}
+    {{-- <link href="{{ asset('assets/css/bootstrap.rtl.min.css') }}" rel="stylesheet"> --}}
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> --}}
 
     <meta name="theme-color" content="#712cf9" />
@@ -25,7 +25,6 @@
     {{-- <script src="{{ asset('assets/js/app.js') }}"></script> --}}
 </head>
 <body>
-
     @include('partials.header')
 
     <main>
